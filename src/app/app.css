@@ -49,6 +49,7 @@
 	margin: 0;
 }
 
+
 .task-item {
 	display: flex;
 	align-items: center;
@@ -58,6 +59,11 @@
 }
 .task-item:last-child {
 	border-bottom: none;
+}
+
+.task-completed {
+	text-decoration: line-through;
+	color: #aaa;
 }
 
 .remove-btn {
